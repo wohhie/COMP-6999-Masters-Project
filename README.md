@@ -11,14 +11,9 @@ In this project, our developed proctoring system offers a novel way to automate 
 
 ## Architecture
 
-![Screenshot_13](https://user-images.githubusercontent.com/13005159/95873067-1e2def80-0d4a-11eb-9c48-16dff618264a.png)
 <p align="center">
-  <b>Some Links:</b><br>
-  <a href="#">Link 1</a> |
-  <a href="#">Link 2</a> |
-  <a href="#">Link 3</a>
-  <br><br>
-  <img src="http://s.4cdn.org/image/title/105.gif">
+  <img src="https://user-images.githubusercontent.com/13005159/95873067-1e2def80-0d4a-11eb-9c48-16dff618264a.png">
+  <b>Prototype of the proposed automated proctoring system.</b><br>
 </p>
 
 ## Desktop Application 
