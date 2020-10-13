@@ -1,0 +1,68 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline'">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <title>User Permission</title>
+</head>
+<body>
+    
+    <!-- Network Permission from user !-->
+    <div class="container" id="permission_block">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="application">
+                    <div class="permission">
+                        <div class="text-right">
+                            <i class="fas fa-lock"></i> 
+                            <h2>Proctor Application wants to acces your Network Information!</h2>
+                            <p>This application will monitor your network information</p>
+    
+                        </div>
+                        
+                        
+                        <div class="btn-right">
+                            <a href="#" class="btn btn-success" id="permission_yes">Yes</a>
+                            <a href="#" class="btn btn-danger" id="permission_no">No</a>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const path = require('path')
+        const remote = require('electron').remote
+        const os = require('os');
+        const { ipcRenderer } = require('electron');
+
+        
+
+        permission_no.addEventListener('click', () => {
+            let windowNo = remote.getCurrentWindow()
+            windowNo.close()
+        });
+
+
+
+        const permission_yes = document.getElementById('permission_yes');
+        permission_yes.addEventListener('click', () => {
+            
+
+            ipcRenderer.send('index:permission', {
+                'permission': 'yes',
+            })
+        });
+
+    </script>
+</body>
+</html>
