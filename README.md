@@ -22,23 +22,17 @@ In this project, our developed proctoring system offers a novel way to automate 
 <br/>
 <br/>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/13005159/95876219-6864a000-0d4d-11eb-8790-144c18a3cc49.jpg">
+  <img src="https://user-images.githubusercontent.com/13005159/95876775-fa6ca880-0d4d-11eb-8d9e-8f716bfc6c0f.png">
   <br/><b>Prototype of the proposed automated proctoring system.</b><br>
-</p>
-
-<br/>
-<br/>
-<br/>
-<br/>
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/13005159/95876219-6864a000-0d4d-11eb-8790-144c18a3cc49.jpg">
-  <br/><br/><b>System architecture of the developed proctoring system.</b><br>
 </p>
 
 
 
 ## Desktop Application 
 
+<img src="https://user-images.githubusercontent.com/13005159/95877005-40c20780-0d4e-11eb-9d00-6339a7a6bcd9.png" width="425"/> 
+<img src="https://user-images.githubusercontent.com/13005159/95877008-415a9e00-0d4e-11eb-9205-a43d0c668042.png" width="425"/> 
+<img src="https://user-images.githubusercontent.com/13005159/95877009-415a9e00-0d4e-11eb-9d88-91fd2c3b5a85.png" width="425"/> 
 
 ## Web Application 
 
