@@ -30,7 +30,7 @@ In this project, our developed proctoring system offers a novel way to automate 
 
 ## Desktop Application 
 
-<img src="https://user-images.githubusercontent.com/13005159/95877008-415a9e00-0d4e-11eb-9205-a43d0c668042.png" width="220"/> <img src="https://user-images.githubusercontent.com/13005159/95877005-40c20780-0d4e-11eb-9d00-6339a7a6bcd9.png" width="220"/> <img src="https://user-images.githubusercontent.com/13005159/95877009-415a9e00-0d4e-11eb-9d88-91fd2c3b5a85.png" width="220"/> 
+<img src="https://user-images.githubusercontent.com/13005159/95877008-415a9e00-0d4e-11eb-9205-a43d0c668042.png" width="240"/> <img src="https://user-images.githubusercontent.com/13005159/95877005-40c20780-0d4e-11eb-9d00-6339a7a6bcd9.png" width="240"/> <img src="https://user-images.githubusercontent.com/13005159/95877009-415a9e00-0d4e-11eb-9d88-91fd2c3b5a85.png" width="240"/> 
 
 ## Web Application & RESTful API
 
