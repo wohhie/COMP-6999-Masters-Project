@@ -29,10 +29,20 @@ In this project, our developed proctoring system offers a novel way to automate 
 
 
 ## Desktop Application 
+The student desktop application connects students to the exam server and monitors the candidates' network interface information during the exam. The desktop application is developed using Electron JS(a runtime JavaScript framework) and Bootstrap3 (a CSS framework) (Electron JS, 2020). Electron is an open-source library to develop cross-platform desktop applications using HTML, CSS, and JavaScript. 
+
+The student desktop application verifies the user with an email address and password and fetches individual candidate course information through the API. The API also uses the post request to insert the network interface information to the database. 
 
 <img src="https://user-images.githubusercontent.com/13005159/95877008-415a9e00-0d4e-11eb-9205-a43d0c668042.png" width="250"/> <img src="https://user-images.githubusercontent.com/13005159/95877005-40c20780-0d4e-11eb-9d00-6339a7a6bcd9.png" width="250"/> <img src="https://user-images.githubusercontent.com/13005159/95877009-415a9e00-0d4e-11eb-9d88-91fd2c3b5a85.png" width="250"/> 
+<p align="center">
+  <br/><b>Desktop Application.</b><br>
+</p>
+
 
 ## Web Application & RESTful API
+
+The web-based proctor application helps the proctor to set up an exam for individual courses and to monitor information about the network interface of the students.  The proctor may also set rules for the examination with the application for proctoring.  The application is developed on Laravel using AdminLTE and Bootstrap3. AdminLTE is one of the popular open-source templates for admin dashboards (Almsaeed, 2017). The responsive HTML5 template based on CSS3 framework Boostrap3. Laravel is a server-side web framework of PHP which follows the MVC architecture (Laravel, 2020).
+
 
 ![Picture3](https://user-images.githubusercontent.com/13005159/95884326-871b6480-0d56-11eb-981e-4b1eba1e3ac2.png)
 <br/>
@@ -51,7 +61,7 @@ Fuzzy string matching is a way of finding strings that match a pattern approxima
 ##### Levenshtein distance metric algorithm
 The Levenshtein metric distance algorithm estimates the difference between the two-word sequences (Okuda, Tanaka, & Kasai, 1976). In other words, it calculates the minimum number of edits needed to alter the sequence of one word to another, and the changes can be insertions, deletions, or replacements.
 
-
+![Picture6](https://user-images.githubusercontent.com/13005159/95931691-7265bd80-0da4-11eb-8dbe-05a023884d12.png)
 
 ## Database 
 <p align="center">
@@ -59,7 +69,6 @@ The Levenshtein metric distance algorithm estimates the difference between the t
   <br/><b>Database Enhanced entity-relationship diagram.</b><br>
 </p>
 
-![_Entity Relationship Diagram Example (UML Notation) (1)]()
 
 
 ## Report 
